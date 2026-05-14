@@ -1,0 +1,26 @@
+[
+  {
+    "id": "p-1001",
+    "title": "Wireless Earbuds Pro",
+    "priceUsd": 49.99,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?w=800",
+    "source": "mock-us-trending"
+  },
+  {
+    "id": "p-1002",
+    "title": "Portable Blender Bottle",
+    "priceUsd": 29.5,
+    "category": "Home & Kitchen",
+    "imageUrl": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800",
+    "source": "mock-us-trending"
+  },
+  {
+    "id": "p-1003",
+    "title": "Ergonomic Laptop Stand",
+    "priceUsd": 34.0,
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=800",
+    "source": "mock-us-trending"
+  }
+]
