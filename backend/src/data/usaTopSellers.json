@@ -1,0 +1,110 @@
+[
+  {
+    "id": "p-1001",
+    "title": "Wireless Earbuds Pro",
+    "priceUsd": 49.99,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 5600
+  },
+  {
+    "id": "p-1002",
+    "title": "Portable Blender Bottle",
+    "priceUsd": 29.5,
+    "category": "Home & Kitchen",
+    "imageUrl": "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 4200
+  },
+  {
+    "id": "p-1003",
+    "title": "Ergonomic Laptop Stand",
+    "priceUsd": 34,
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 3900
+  },
+  {
+    "id": "p-1004",
+    "title": "Smart Fitness Watch",
+    "priceUsd": 89,
+    "category": "Wearables",
+    "imageUrl": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 7700
+  },
+  {
+    "id": "p-1005",
+    "title": "Mini Projector",
+    "priceUsd": 119,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1603484477859-abe6a73f9363?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 3500
+  },
+  {
+    "id": "p-1006",
+    "title": "Robot Vacuum",
+    "priceUsd": 199,
+    "category": "Home",
+    "imageUrl": "https://images.unsplash.com/photo-1584473457409-cec6f88f77f0?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 8200
+  },
+  {
+    "id": "p-1007",
+    "title": "Air Fryer XL",
+    "priceUsd": 129,
+    "category": "Kitchen",
+    "imageUrl": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 6800
+  },
+  {
+    "id": "p-1008",
+    "title": "Standing Desk Converter",
+    "priceUsd": 159,
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 2800
+  },
+  {
+    "id": "p-1009",
+    "title": "Gaming Mouse RGB",
+    "priceUsd": 59,
+    "category": "Gaming",
+    "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 5000
+  },
+  {
+    "id": "p-1010",
+    "title": "Bluetooth Speaker Max",
+    "priceUsd": 75,
+    "category": "Audio",
+    "imageUrl": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 6100
+  },
+  {
+    "id": "p-1011",
+    "title": "LED Strip Kit",
+    "priceUsd": 24,
+    "category": "Home Decor",
+    "imageUrl": "https://images.unsplash.com/photo-1536882240095-0379873feb4e?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 3100
+  },
+  {
+    "id": "p-1012",
+    "title": "Car Phone Mount",
+    "priceUsd": 19,
+    "category": "Automotive",
+    "imageUrl": "https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=800",
+    "source": "us-market-snapshot",
+    "salesLast30d": 4600
+  }
+]

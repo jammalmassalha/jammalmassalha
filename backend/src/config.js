@@ -13,4 +13,6 @@ export const config = {
   adminApiKey: process.env.ADMIN_API_KEY || 'change-me',
   paymentWebhookSecret: process.env.PAYMENT_WEBHOOK_SECRET || 'replace-with-long-random-secret',
   allowedOrigins: splitCsv(process.env.ALLOWED_ORIGINS || 'http://localhost:5173,http://localhost:3000'),
+  minProfitUsd: Number(process.env.MIN_PROFIT_USD || 5),
+  maxProfitUsd: Number(process.env.MAX_PROFIT_USD || 10),
 };

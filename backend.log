@@ -1,0 +1,9 @@
+
+> dropshopping-backend@0.1.0 dev
+> node --watch src/index.js
+
+Backend listening on http://localhost:4000
+[0mGET / [32m200[0m 3.072 ms - 192[0m
+[0mGET /health [32m200[0m 0.610 ms - 44[0m
+[0mGET /health [32m200[0m 0.577 ms - 44[0m
+[0mGET /api/products/trending [32m200[0m 1.914 ms - 1176[0m

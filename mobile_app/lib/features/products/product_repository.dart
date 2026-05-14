@@ -27,6 +27,7 @@ class ProductRepository {
   final http.Client client;
 
   Future<List<Product>> fetchTrendingProducts() async {
+    // Backend returns admin-curated products that should appear in the app.
     final response = await client.get(Uri.parse('$apiBaseUrl/api/products/trending'));
 
     if (response.statusCode != 200) {

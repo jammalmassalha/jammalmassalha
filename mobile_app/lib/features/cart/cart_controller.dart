@@ -12,6 +12,14 @@ final cartCountProvider = Provider<int>((ref) {
   return cart.fold(0, (sum, item) => sum + item.quantity);
 });
 
+final cartTotalProvider = Provider<double>((ref) {
+  final cart = ref.watch(cartControllerProvider);
+  return cart.fold(
+    0,
+    (sum, item) => sum + (item.product.appPriceUsd * item.quantity),
+  );
+});
+
 class CartController extends Notifier<List<CartItem>> {
   @override
   List<CartItem> build() => [];
