@@ -15,4 +15,7 @@ export const config = {
   allowedOrigins: splitCsv(process.env.ALLOWED_ORIGINS || 'http://localhost:5173,http://localhost:3000'),
   minProfitUsd: Number(process.env.MIN_PROFIT_USD || 5),
   maxProfitUsd: Number(process.env.MAX_PROFIT_USD || 10),
+  allowedCryptoChains: splitCsv(
+    process.env.ALLOWED_CRYPTO_CHAINS || 'ethereum,bitcoin,solana,polygon,arbitrum,base'
+  ),
 };

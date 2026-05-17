@@ -252,7 +252,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                     Expanded(
                       child: FilledButton(
                         onPressed: cartItems.isEmpty ? null : () {},
-                        child: const Text('Checkout'),
+                        child: const Text('Pay with Crypto'),
                       ),
                     ),
                   ],

@@ -169,11 +169,27 @@ app.post('/api/admin/products', requireAdmin, async (req, res, next) => {
 });
 
 app.post('/api/orders', async (req, res) => {
-  const { productId, quantity, walletAddress, chain } = req.body || {};
+  const { productId, quantity, walletAddress, chain, paymentMethod } = req.body || {};
+  const normalizedChain = String(chain || '').toLowerCase();
+  const method = String(paymentMethod || 'crypto').toLowerCase();
 
   if (!productId || !quantity || !walletAddress || !chain) {
     return res.status(400).json({
       message: 'productId, quantity, walletAddress and chain are required',
+    });
+  }
+
+  if (method !== 'crypto') {
+    return res.status(400).json({
+      message: 'Only crypto payments are allowed',
+      acceptedPaymentMethods: ['crypto'],
+    });
+  }
+
+  if (!config.allowedCryptoChains.includes(normalizedChain)) {
+    return res.status(400).json({
+      message: 'Unsupported crypto chain',
+      allowedCryptoChains: config.allowedCryptoChains,
     });
   }
 
@@ -182,7 +198,8 @@ app.post('/api/orders', async (req, res) => {
     productId,
     quantity,
     walletAddress,
-    chain,
+    chain: normalizedChain,
+    paymentMethod: 'crypto',
     status: 'pending_payment',
     createdAt: new Date().toISOString(),
   };
